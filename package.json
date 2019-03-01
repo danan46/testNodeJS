@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha src/test/**/**.test.js"
+    "test": "jest --coverage"
   },
   "author": "DN",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.0.2",
-    "nyc": "^13.3.0"
+    "jest": "^24.1.0"
   }
 }
